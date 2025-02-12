@@ -31,7 +31,7 @@ class GameManager:
             self.handle_events()
             self.update()
             self.render()
-            self.clock.tick(30)
+            self.clock.tick(40)
 
     def handle_events(self):
         for event in pygame.event.get():
