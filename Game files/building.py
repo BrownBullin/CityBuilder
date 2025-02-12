@@ -1,7 +1,7 @@
 class Building:
     def __init__(self, name, cost, resource_output):
         self.name = name
-        self.cost = cost
+        self.cost = cost 
         self.resource_output = resource_output
 
     def on_place(self, city):
